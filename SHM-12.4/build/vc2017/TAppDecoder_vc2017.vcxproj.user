@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-b BQTerrace_dec_8（未丢帧）.bin -lid 1 -o0 BQTerrace_dec_l0_8.yuv -o1 BQTerrace_dec_l1_8.yuv &gt;BQTerrace_dec_40_30_8.log</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>..\..\bin\vc2017\x64\Debug</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-b BQTerrace_dec_8（未丢帧）.bin -lid 1 -o0 BQTerrace_dec_l0_8.yuv -o1 BQTerrace_dec_l1_8.yuv &gt;BQTerrace_dec_40_30_8.log</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\..\bin\vc2017\x64\Release</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

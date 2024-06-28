@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-c encoder_lowdelay_P_scalable.cfg -c Cactus-SNR.cfg -c layers.cfg -i0 D:/Seq/classB/Cactus_1920x1080_50.yuv -i1 D:/Seq/classB/Cactus_1920x1080_50.yuv --RateControl0=0 --RateControl1=0 --QP0=26 --QP1=22 -f 9 --IntraPeriod0=-1 --IntraPeriod1=-1 --DefaultTargetOutputLayerIdc=0 -b Cactus_26_22_PU划分.bin -o0 Cactus_rec_l0_PU划分.yuv -o1 Cactus_rec_l1_PU划分.yuv &gt;Cactus_dec_26_22_PU划分.log</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\..\bin\vc2017\x64\Release</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-c encoder_lowdelay_P_scalable.cfg -c BQTerrace-SNR.cfg -c layers.cfg -i0 D:/Seq/classB/BQTerrace_1920x1080_60.yuv -i1 D:/Seq/classB/BQTerrace_1920x1080_60.yuv --RateControl0=0 --RateControl1=0 --QP0=26 --QP1=22 --IntraPeriod0=-1 --IntraPeriod1=-1 -f 1 --DefaultTargetOutputLayerIdc=0 -b BQTerrace_PU划分.bin -o0 BQTerrace_rec_l0_PU划分.yuv -o1 BQTerrace_rec_l1_PU划分.yuv &gt;BQTerrace_PU划分.log</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>..\..\bin\vc2017\x64\Debug</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>
