@@ -12,5 +12,7 @@ RD cost checking can be skipped, thus save the encoding time of enhancement laye
 
 # References
 [1] JCT-VC, “SHM Software,” [Online]. Available: https://hevc.hhi.fraunhofer.de/svn/svn_SHVCSoftware/tags/SHM-12.4/.
+
 [2] Chang C C, Lin C J. LIBSVM: a library for support vector machines[J]. ACM transactions on intelligent systems and technology (TIST), 2011, 2(3): 1-27.
+
 [3] Zhu L, Zhang Y, Kwong S, et al. Fuzzy SVM-based coding unit decision in HEVC[J]. IEEE Transactions on Broadcasting, 2017, 64(3): 681-694.
